@@ -85,7 +85,6 @@ const App = () => {
     );
   });
 
-  console.log(questionElements);
   //select answers
   function selectAnswers(questionId, answerId) {
     setQuestions(prevQuestions => {
